@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pong</title>
+        <meta name="description" content="This is a pong game.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1 class="Pong-title">Welcome to Pong</h1>
+        <p>This game is a local, two-player game. Use keys "w" and "s" for P1. Use keys "o" and "l" for P2.</p>
+        <p><span class="Pong-score">P1</span><span id="P1Score" class="Pong-score"></span><span class="Pong-score">|</span><span id="P2Score" class="Pong-score"></span><span class="Pong-score">P2</span></p>
+        <canvas id="canvas" width="500" height="300">This is a pong game...</canvas>
+        <br>
+        <button id="start-btn">Start Game</button>
+        
+        <script src="./index.js" async defer></script>
+    </body>
+</html>

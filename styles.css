@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+:root, html {
+    --fc-accent: blue;
+}
+
+body {
+    text-align: center;
+}
+
+.Pong-score {
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+#start-btn {
+    width: 100px;
+    background-color: black;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+#canvas {
+    border: 1px solid black;
+    background-color: black;
+}
